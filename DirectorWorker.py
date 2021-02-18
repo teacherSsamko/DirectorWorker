@@ -12,6 +12,7 @@ class Worker(threading.Thread):
         self.task = None
     
     def run(self):
+        """actual task here"""
         t = 0
         while t < self.task:
             t += 1
@@ -24,7 +25,6 @@ class Director:
         self.capacity = capacity
         self.task_to_do = list()
         self.workers = { x : None for x in range(capacity) }
-        self.done_workers = set()
 
     def check_task(self, task):
         if task % 3 != 0:
