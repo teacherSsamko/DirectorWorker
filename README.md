@@ -1,6 +1,9 @@
 # DirectorWorker
 Director and Worker. using thread
 
+## structure
+![structure](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwN7a9%2FbtqXyMd56Be%2Fq9S68P7hiaJbq8KV1cmss0%2Fimg.jpg)
+
 ## output sample
 ```bash
 [24, 10, 2, 22, 28, 25, 16, 27, 6, 3, 1, 19, 8, 29, 12]
