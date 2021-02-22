@@ -22,11 +22,17 @@ class Worker(threading.Thread):
 
 class Director:
     def __init__(self, capacity=4):
+        """init Director instance
+        Keyword arguments:
+        capacity -- the capacity of thread depending on CPU or GPU (default 4)
+        """
         self.capacity = capacity
         self.task_to_do = list()
         self.workers = { x : None for x in range(capacity) }
 
     def check_task(self, task):
+        """check if there is any task to do -> boolean
+        """
         if task % 3 != 0:
             return True
         else:
@@ -35,6 +41,9 @@ class Director:
             return False
 
     def check_avail_worker(self):
+        """check if there is any available worker
+        and return index of the worker or false
+        """
         for worker_idx, status in self.workers.items():
             print(f'worker status\n{worker_idx} - {status}')
             if not status:
