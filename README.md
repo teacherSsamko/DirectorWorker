@@ -1,5 +1,6 @@
 # DirectorWorker
 Director and Worker. using thread
+article: https://ssamko.tistory.com/69
 
 ## structure
 ![structure](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwN7a9%2FbtqXyMd56Be%2Fq9S68P7hiaJbq8KV1cmss0%2Fimg.jpg)
