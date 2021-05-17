@@ -1,5 +1,5 @@
 # DirectorWorker
-Director and Worker. using thread
+Director and Worker. using thread  
 article: https://ssamko.tistory.com/69
 
 ## structure
